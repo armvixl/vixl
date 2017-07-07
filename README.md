@@ -1,6 +1,8 @@
 VIXL: AArch64 Runtime Code Generation Library Version 1.13
 ==========================================================
 
+**NB.** VIXL development continues in [a new repository at Linaro][linaro].
+
 Contents:
 
  * Overview
@@ -183,3 +185,6 @@ that may be helpful [here](doc/topics/index.md).
 
 [vixl]: https://github.com/armvixl/vixl
         "The VIXL repository on GitHub."
+
+[linaro]: https://git.linaro.org/arm/vixl.git
+          "The new VIXL repository at Linaro."
