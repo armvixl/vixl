@@ -264,6 +264,11 @@ class Instruction {
            (Mask(MoveWideImmediateMask) == MOVN_w);
   }
 
+  bool IsMovz() const {
+    return (Mask(MoveWideImmediateMask) == MOVZ_x) ||
+           (Mask(MoveWideImmediateMask) == MOVZ_w);
+  }
+
   static int ImmBranchRangeBitwidth(ImmBranchType branch_type);
   static int32_t ImmBranchForwardRange(ImmBranchType branch_type);
   static bool IsValidImmPCOffset(ImmBranchType branch_type, int64_t offset);
